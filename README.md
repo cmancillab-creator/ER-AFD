@@ -46,4 +46,6 @@ Operadores `|`, `*`, concatenación implícita, paréntesis, `.`, `ε`, conjunto
 
 ## Repositorio
 
-Publicar el contenido de esta carpeta en un repositorio de GitHub o GitLab y entregar el enlace. El ZIP no crea ni publica el repositorio automáticamente.
+El proyecto está publicado en GitHub: https://github.com/cmancillab-creator/ER-AFD
+
+El enlace anterior es el enlace de entrega del código fuente y los documentos PDF.
