@@ -1,6 +1,6 @@
 # ER-AFD — Convertidor de expresiones regulares a AFD
 
-Proyecto académico de Teoría de Autómatas. Python 3.9+ / Linux 64-bit / sin dependencias externas.
+Proyecto  Python 3.9+ / Linux 64-bit /
 
 ## Uso
 
@@ -40,12 +40,8 @@ py src/main.py "(a|b)*abb" "aaba"
 
 Operadores `|`, `*`, concatenación implícita, paréntesis, `.`, `ε`, conjuntos `[]`, rangos, negación `[^]`, escapes normales y `\N`, `\hHH`, `\A`, `\a`, `\z`. Universo ASCII 0–127. Un AFD con transiciones ausentes rechaza de inmediato; no se imprime estado sumidero explícito.
 
-## Defensa sugerida (10 minutos)
-
-0–2: correr un caso aceptado y otro rechazado. 2–5: explicar en la tabla el AFND, la clausura ε y los subconjuntos del AFD. 5–7: `make test` y cobertura de casos. 7–10: contestar preguntas sobre precedencia, epsilon y transiciones solapadas.
 
 ## Repositorio
 
 El proyecto está publicado en GitHub: https://github.com/cmancillab-creator/ER-AFD
 
-El enlace anterior es el enlace de entrega del código fuente y los documentos PDF.
